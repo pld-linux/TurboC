@@ -6,6 +6,7 @@ Release:	1
 License:	LGPL
 Group:		Development/Libraries
 Source0:	http://www.sandroid.org/TurboC/%{name}-dev.tar.gz
+# Source0-md5:	817209a0d40a02fa44a649dbe5ed022f
 Patch0:		%{name}-memset.patch
 URL:		http://www.sandroid.org/TurboC/
 BuildRequires:	XFree86-devel
