@@ -1,0 +1,19 @@
+--- TurboC-source/TurboC.h.orig	Tue Dec 17 02:51:22 2002
++++ TurboC-source/TurboC.h	Tue Mar 25 00:26:41 2003
+@@ -219,6 +219,16 @@
+ #define strncmp strncmpTurbo
+ #endif // strcmp
+ 
++#ifdef memset
++static inline void*
++memsetTurbo (void *s, int16_t c, int16_t n)
++{
++  return (memset (s, c, n));
++}
++#undef memset
++#define memset memsetTurbo
++#endif
++
+ #ifdef strncasecmp
+ static inline int16_t
+ strncmpi (const char *s1, const char *s2, int16_t n)
