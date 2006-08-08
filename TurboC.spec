@@ -34,7 +34,7 @@ dir.h dos.h fnkeys.h graphics.h io.h.
 
 %prep
 %setup -q -n %{name}-source
-%patch -p1
+%patch0 -p1
 
 %build
 %{__make} \
