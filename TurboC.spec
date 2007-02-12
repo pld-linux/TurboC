@@ -1,5 +1,5 @@
 Summary:	TurboC - a library for porting Borland Turbo C to GNU gcc
-Summary(pl):	TurboC - biblioteka do portowania Turbo C Borlanda do GNU gcc
+Summary(pl.UTF-8):   TurboC - biblioteka do portowania Turbo C Borlanda do GNU gcc
 Name:		TurboC
 Version:	20021216
 Release:	1
@@ -24,12 +24,12 @@ Turbo C but not in gcc libraries.
 It contains replacements for the following headers: alloc.h bios.h
 dir.h dos.h fnkeys.h graphics.h io.h.
 
-%description -l pl
-TurboC to zestaw przydatny do konwersji program體 z Turbo C Borlanda
-do GNU gcc. Nie wykonuje ca砮j pracy, ale dostarcza r罂nych funkcji
-obecnych w Turbo C, kt髍ych nie ma w gcc.
+%description -l pl.UTF-8
+TurboC to zestaw przydatny do konwersji program贸w z Turbo C Borlanda
+do GNU gcc. Nie wykonuje ca艂ej pracy, ale dostarcza r贸偶nych funkcji
+obecnych w Turbo C, kt贸rych nie ma w gcc.
 
-Zawiera zamienniki nast阷uj眂ych plik體 nag丑wkowych: alloc.h bios.h
+Zawiera zamienniki nast臋puj膮cych plik贸w nag艂贸wkowych: alloc.h bios.h
 dir.h dos.h fnkeys.h graphics.h io.h.
 
 %prep
