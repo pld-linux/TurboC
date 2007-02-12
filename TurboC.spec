@@ -1,5 +1,5 @@
 Summary:	TurboC - a library for porting Borland Turbo C to GNU gcc
-Summary(pl.UTF-8):   TurboC - biblioteka do portowania Turbo C Borlanda do GNU gcc
+Summary(pl.UTF-8):	TurboC - biblioteka do portowania Turbo C Borlanda do GNU gcc
 Name:		TurboC
 Version:	20021216
 Release:	1
